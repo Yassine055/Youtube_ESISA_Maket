@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="divmamanmere">
+            <div class="logo-container">
+                <div class="divMaman1">
+                    <div class="div1"></div>
+                    <div class="div2"></div>
+                    <div class="div3"></div>
+                </div>
+                <div class="youtube-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="110" height="87" viewBox="0 0 96 48" fill="red">
+                        <g>
+                          <path d="M14.4848 20C14.4848 20 23.5695 20 25.8229 19.4C27.0917 19.06 28.0459 18.08 28.3808 16.87C29 14.65 29 9.98 29 9.98C29 9.98 29 5.34 28.3808 3.14C28.0459 1.9 27.0917 0.94 25.8229 0.61C23.5695 0 14.4848 0 14.4848 0C14.4848 0 5.42037 0 3.17711 0.61C1.9286 0.94 0.954148 1.9 0.59888 3.14C0 5.34 0 9.98 0 9.98C0 9.98 0 14.65 0.59888 16.87C0.954148 18.08 1.9286 19.06 3.17711 19.4C5.42037 20 14.4848 20 14.4848 20Z"></path>
+                          <path d="M19 10L11.5 5.75V14.25L19 10Z" fill="white"></path>
+                        </g>
+                        <g id="youtube-paths_yt10" fill="white">
+                          <path d="M37.1384 18.8999V13.4399L40.6084 2.09994H38.0184L36.6984 7.24994C36.3984 8.42994 36.1284 9.65994 35.9284 10.7999H35.7684C35.6584 9.79994 35.3384 8.48994 35.0184 7.22994L33.7384 2.09994H31.1484L34.5684 13.4399V18.8999H37.1384Z"></path>
+                          <path d="M44.1003 6.29994C41.0703 6.29994 40.0303 8.04994 40.0303 11.8199V13.6099C40.0303 16.9899 40.6803 19.1099 44.0403 19.1099C47.3503 19.1099 48.0603 17.0899 48.0603 13.6099V11.8199C48.0603 8.44994 47.3803 6.29994 44.1003 6.29994ZM45.3903 14.7199C45.3903 16.3599 45.1003 17.3899 44.0503 17.3899C43.0203 17.3899 42.7303 16.3499 42.7303 14.7199V10.6799C42.7303 9.27994 42.9303 8.02994 44.0503 8.02994C45.2303 8.02994 45.3903 9.34994 45.3903 10.6799V14.7199Z"></path>
+                          <path d="M52.2713 19.0899C53.7313 19.0899 54.6413 18.4799 55.3913 17.3799H55.5013L55.6113 18.8999H57.6012V6.53994H54.9613V16.4699C54.6812 16.9599 54.0312 17.3199 53.4212 17.3199C52.6512 17.3199 52.4113 16.7099 52.4113 15.6899V6.53994H49.7812V15.8099C49.7812 17.8199 50.3613 19.0899 52.2713 19.0899Z"></path>
+                          <path d="M62.8261 18.8999V4.14994H65.8661V2.09994H57.1761V4.14994H60.2161V18.8999H62.8261Z"></path>
+                          <path d="M67.8728 19.0899C69.3328 19.0899 70.2428 18.4799 70.9928 17.3799H71.1028L71.2128 18.8999H73.2028V6.53994H70.5628V16.4699C70.2828 16.9599 69.6328 17.3199 69.0228 17.3199C68.2528 17.3199 68.0128 16.7099 68.0128 15.6899V6.53994H65.3828V15.8099C65.3828 17.8199 65.9628 19.0899 67.8728 19.0899Z"></path>
+                          <path d="M80.6744 6.26994C79.3944 6.26994 78.4744 6.82994 77.8644 7.73994H77.7344C77.8144 6.53994 77.8744 5.51994 77.8744 4.70994V1.43994H75.3244L75.3144 12.1799L75.3244 18.8999H77.5444L77.7344 17.6999H77.8044C78.3944 18.5099 79.3044 19.0199 80.5144 19.0199C82.5244 19.0199 83.3844 17.2899 83.3844 13.6099V11.6999C83.3844 8.25994 82.9944 6.26994 80.6744 6.26994ZM80.7644 13.6099C80.7644 15.9099 80.4244 17.2799 79.3544 17.2799C78.8544 17.2799 78.1644 17.0399 77.8544 16.5899V9.23994C78.1244 8.53994 78.7244 8.02994 79.3944 8.02994C80.4744 8.02994 80.7644 9.33994 80.7644 11.7299V13.6099Z"></path>
+                          <path d="M92.6517 11.4999C92.6517 8.51994 92.3517 6.30994 88.9217 6.30994C85.6917 6.30994 84.9717 8.45994 84.9717 11.6199V13.7899C84.9717 16.8699 85.6317 19.1099 88.8417 19.1099C91.3817 19.1099 92.6917 17.8399 92.5417 15.3799L90.2917 15.2599C90.2617 16.7799 89.9117 17.3999 88.9017 17.3999C87.6317 17.3999 87.5717 16.1899 87.5717 14.3899V13.5499H92.6517V11.4999ZM88.8617 7.96994C90.0817 7.96994 90.1717 9.11994 90.1717 11.0699V12.0799H87.5717V11.0699C87.5717 9.13994 87.6517 7.96994 88.8617 7.96994Z"></path>
+                        </g>
+                      </svg>  
+                </div>
+            </div>
+        <div class="navbar">
+            <div class="rec">
+                <div class="rec1">
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+            <div class = "cer4">
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+        </div>
+        <div class="divMamanCer">
+            <div class = "cer1">
+                <div class="pluss">
+                    <div class="plus">
+                        <div class="plus1"></div>
+                        <div class="plus2"></div>
+                    </div>
+                    <span>Create</span>
+                </div>
+            </div>
+            <div class = "cer2">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class = "cer3"><img src="./attachements/image/logo.jpg" alt="logo"></div>
+        </div>
+    </div>
+    <div class="content" style="font-size: 60px;">
+        <div class="chips-wraper">
+            <div class="chip" style="font-family: 'Roboto', Arial, sans-serif;">
+                <p style="margin-top: 70; ">All</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 20%;">Lana del rey</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 20%;">Source codel</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 40%;">Music</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 10%;">Computer programming</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 110%;">AI</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 50%;">Cars</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 30%;">Playlists</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 30%;">Function</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 60%;">Live</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 45%;">Html</p>
+            </div>
+            <div class="chip">
+                <p style="margin-top: 55%;">Css</p>
+            </div>
+    </div>
+    <div class="all">
+            <div class="icones">
+                <i class="fa-solid fa-house" height="10px" width="50px">
+                    <br>
+                    <span class="text2">Home</span>
+                </i>
+                <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
+                    <span class="yt-icon-shape style-scope yt-icon yt-spec-icon-shape">
+                        <div style="width:40%; height: 40%; display: block; fill: currentcolor; margin-left: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path clip-rule="evenodd" d="m7.61 15.719.392-.22v-2.24l-.534-.228-.942-.404c-.869-.372-1.4-1.15-1.446-1.974-.047-.823.39-1.642 1.203-2.097h.001L15.13 3.59c1.231-.689 2.785-.27 3.466.833.652 1.058.313 2.452-.879 3.118l-1.327.743-.388.217v2.243l.53.227.942.404c.869.372 1.4 1.15 1.446 1.974.047.823-.39 1.642-1.203 2.097l-.002.001-8.845 4.964-.001.001c-1.231.688-2.784.269-3.465-.834-.652-1.058-.313-2.451.879-3.118l1.327-.742Zm1.993 6.002c-1.905 1.066-4.356.46-5.475-1.355-1.057-1.713-.548-3.89 1.117-5.025a4.14 4.14 0 01.305-.189l1.327-.742-.942-.404a4.055 4.055 0 01-.709-.391c-.963-.666-1.578-1.718-1.644-2.877-.08-1.422.679-2.77 1.968-3.49l8.847-4.966c1.905-1.066 4.356-.46 5.475 1.355 1.057 1.713.548 3.89-1.117 5.025a4.074 4.074 0 01-.305.19l-1.327.742.942.403c.253.109.49.24.709.392.963.666 1.578 1.717 1.644 2.876.08 1.423-.679 2.77-1.968 3.491l-8.847 4.965ZM10 14.567a.25.25 0 00.374.217l4.45-2.567a.25.25 0 000-.433l-4.45-2.567a.25.25 0 00-.374.216v5.134Z" fill-rule="evenodd">
+                                <path clip-rule="evenodd" d="M18.45 8.851c1.904-1.066 2.541-3.4 1.422-5.214-1.119-1.814-3.57-2.42-5.475-1.355L5.55 7.247c-1.29.722-2.049 2.069-1.968 3.491.081 1.423.989 2.683 2.353 3.268l.942.404-1.327.742c-1.904 1.066-2.541 3.4-1.422 5.214 1.119 1.814 3.57 2.421 5.475 1.355l8.847-4.965c1.29-.722 2.049-2.068 1.968-3.49-.081-1.423-.989-2.684-2.353-3.269l-.942-.403 1.327-.743ZM10 14.567a.25.25 0 00.374.217l4.45-2.567a.25.25 0 000-.433l-4.45-2.567a.25.25 0 00-.374.216v5.134Z"></path>
+                            </path>
+                            </svg>
+                        </div>
+                        <span class="text4">Shorts</span>
+                    </span>
+                </yt-icon>
+                <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer">
+                    <span class="yt-icon-shape style-scope yt-icon yt-spec-icon-shape">
+                        <div style="width: 30%; height: 30%; display: block; fill: currentcolor; margin-left: 24px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;">
+                                <path clip-rule="evenodd" d="M4 4.5A1.5 1.5 0 015.5 3h13A1.5 1.5 0 0120 4.5H4Zm16.5 3h-17v11h17v-11ZM3.5 6A1.5 1.5 0 002 7.5v11A1.5 1.5 0 003.5 20h17a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0020.5 6h-17Zm7.257 4.454a.5.5 0 00-.757.43v4.233a.5.5 0 00.757.429L15 13l-4.243-2.546Z" fill-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <span class="text5">Subscriptions</span>
+                    </span>
+                </yt-icon>
+                <i class="fa-regular fa-user" style="margin-top: 15px;">
+                    <br>
+                    <span class="text3">You</span>
+                </i>
+            </div>
+        <div class="container">
+            <div class="bodyYou1">
+                <div class="groupe1">
+                    <div class="rect1"><img src="./attachements/Miniatures/min1/min.webp" alt="min1"></div>
+                        <div class="miniGroup1">
+                            <div class="cerc1"><img src="./attachements/Miniatures/min1/channels4_profile.jpg" alt="profil"></div>
+                            <div class="titreMin1">
+                                <span class="titre1">Tailwind v4: Managing Dark Mode</span>
+                                <span class="nom1">École du Web</span>
+                                <div class="video-info">
+                                    <span class="views" style="color: #aaa;">581 views</span>
+                                    <div class="separator"></div>
+                                    <span class="date" style="color: #aaa;">3 days ago</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+                <div class="groupe2">
+                    <div class="rect2"><img src="./attachements/Miniatures/min2/min2.jpg" alt="min2"></div>
+                    <div class="miniGroup2">
+                        <div class="cerc2"><img src="./attachements/Miniatures/min2/profile.jpg" alt=""></div>
+                        <div class="titreMin1">
+                            <span class="titre1">UX/UI Design Trends 2025</span>
+                            <span class="nom1">DesignSense</span>
+                            <div class="video-info">
+                                <span class="views" style="color: #aaa;">104K views</span>
+                                <div class="separator"></div>
+                                <span class="date" style="color: #aaa;">3 months ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="groupe3">
+                    <div class="rect3"><img src="./attachements/Miniatures/min3/min3.jpg" alt="min3"></div>
+                    <div class="miniGroup3">
+                        <div class="cerc3"><img src="./attachements/Miniatures/min3/profil.jpg" alt="profil3"></div>
+                        <div class="titreMin1">
+                            <span class="titre1">Learn Flexbox CSS in 8 minutes</span>
+                            <span class="nom1">Slaying The Dragon</span>
+                            <div class="video-info">
+                                <span class="views" style="color: #aaa;">1.8M views</span>
+                                <div class="separator"></div>
+                                <span class="date" style="color: #aaa;">2 years ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="bodyYou2">
+                <div class="groupe4">
+                    <div class="rect4"><img src="./attachements/Miniatures/min4/min4.jpg" alt="min4"></div>
+                        <div class="miniGroup4">
+                            <div class="cerc4"><img src="./attachements/Miniatures/min4/profile.jpg" alt="profil4"></div>
+                            <div class="titreMin1">
+                                <span class="titre1">CSS Glowing Button - How to Design Glowing Button with Hover Effects</span>
+                                <span class="nom1">Coding Play</span>
+                                <div class="video-info" style="margin-bottom: -4px;">
+                                    <span class="views" style="color: #aaa;">271K views</span>
+                                    <div class="separator"></div>
+                                    <span class="date" style="color: #aaa;">3 years ago</span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="groupe5">
+                    <div class="rect5"><img src="./attachements/Miniatures/min5/min5.jpg" alt=""></div>
+                    <div class="miniGroup5">
+                        <div class="cerc5"><img src="./attachements/Miniatures/min5/profile5.jpg" alt=""></div>
+                        <div class="titreMin1">
+                            <span class="titre1">How to create 3D Website Designs With No Code</span>
+                            <span class="nom1">Codex Community</span>
+                            <div class="video-info" style="margin-bottom: -4px;">
+                                <span class="views" style="color: #aaa;">718K views</span>
+                                <div class="separator"></div>
+                                <span class="date" style="color: #aaa;">1 years ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="groupe6">
+                    <div class="rect6" style="margin-top: 2px;"><img src="./attachements/Miniatures/min6/min6.jpg" alt="min6"></div>
+                    <div class="miniGroup6">
+                        <div class="cerc6"><img src="./attachements/Miniatures/min6/profile6.jpg" alt="profile6"></div>
+                        <div class="titreMin1">
+                            <span class="titre1">Build a Stunning 3D Website with HTML, CSS & Spline! 🎨✨</span>
+                            <span class="nom1">MiladiCode</span>
+                            <div class="video-info" style="margin-bottom: -4px;">
+                                <span class="views" style="color: #aaa;">36K views</span>
+                                <div class="separator"></div>
+                                <span class="date" style="color: #aaa;">3 weeks ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="bodyYou3">
+                <div class="groupe7">
+                    <div class="rect7"><img src="./attachements/Miniatures/min7/min7.jpg" alt="min7"></div>
+                        <div class="miniGroup7">
+                            <div class="cerc7"><img src="./attachements/Miniatures/min7/profile7.jpg" alt="profile7"></div>
+                            <div class="titreMin1">
+                                <span class="titre1">Impressive 2025 Website Design Inspiration</span>
+                                <span class="nom1">Codex Community</span>
+                                <div class="video-info" style="margin-bottom: -4px;">
+                                    <span class="views" style="color: #aaa;">86K views</span>
+                                    <div class="separator"></div>
+                                    <span class="date" style="color: #aaa;">3 months ago</span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="groupe8">
+                    <div class="rect8"><img src="./attachements/Miniatures/min8/maxresdefault.jpg" alt="min8"></div>
+                    <div class="miniGroup8">
+                        <div class="cerc8"><img src="./attachements/Miniatures/min8/profile8.jpg" alt=""></div>
+                        <div class="titreMin1">
+                            <span class="titre1">I tried every FREE website builder. This is the best</span>
+                            <span class="nom1">Steve Builds Websites</span>
+                            <div class="video-info" style="margin-bottom: -4px;">
+                                <span class="views" style="color: #aaa;">603K views</span>
+                                <div class="separator"></div>
+                                <span class="date" style="color: #aaa;">1 year ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="groupe9">
+                    <div class="rect9"><img src="./attachements/Miniatures/min9/min9.jpg" alt="min9"></div>
+                    <div class="miniGroup9">
+                        <div class="cerc9"><img src="./attachements/Miniatures/min9/profile9.jpg" alt="profile9"></div>
+                        <div class="titreMin1">
+                            <span class="titre1">Why My Websites Always Look Next Level</span>
+                            <span class="nom1">Nicolai Palmkvist</span>
+                            <div class="video-info" style="margin-bottom: -4px;">
+                                <span class="views" style="color: #aaa;">479K views</span>
+                                <div class="separator"></div>
+                                <span class="date" style="color: #aaa;">3 months ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

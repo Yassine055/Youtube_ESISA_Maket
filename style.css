@@ -1,0 +1,758 @@
+body {
+    background-color: #0f0f0f;
+}
+/* div1, div2, div3 : Styles pour les trois lignes de séparation du menu de recherche */
+.div1{
+    margin-top: 10px;
+    background-color:white;
+    width: 18px;
+    height: 2px;
+    
+}
+.div2{
+    margin-top: 4px;
+    background-color:white;
+    width: 18px;
+    height: 2px;
+    
+}
+.div3{
+    margin-top: 4px;
+    background-color:white;
+    width: 18px;
+    height: 2px;
+    
+}
+
+.youtube-logo{
+    margin-left: 0px;
+}
+
+/* cerc1 : create */
+.cer1{
+    margin-top: 6px;
+    background-color: #181818;
+    width: 95px;
+    height: 35px;
+    border: 1px ;
+    border-radius: 25px;
+}
+.cer1:hover{
+    background-color: #3b3b3b;
+}
+.plus {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.plus1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: white;
+    width: 18px;
+    height: 1px;
+}
+
+.plus2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 1px;
+    height: 18px;
+}
+span{
+    color: white;
+    margin-left: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Arial", sans-serif;
+}
+.pluss{
+    display: flex;
+   
+}
+
+.cer2{
+    margin-top: 6px;
+    background-color: #0f0f0f;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.cer2:hover{
+    background-color: #3b3b3b;
+}
+.fa-bell {
+    margin-top: 7px;
+    margin-left: 8.5px;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+.cer3{
+    margin-top: 6px;
+    background-color: #3b3b3b;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.cer3 img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.rec{
+    display: flex;
+    align-items: center;
+    background-color: #181818;
+    width: 530px;
+    height: 40px;
+    border-radius: 25px;
+    padding: 0 15px;
+    border: 1px solid #444;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.rec:hover{
+    transform: scale(1.01);  
+    cursor: pointer;
+}
+.rec1{
+    position: absolute;
+    right: 0;
+    background-color: #3b3b3b;
+    width: 65px;
+    height: 100%;
+    border-radius: 0 25px 25px 0;
+}
+.fa-search{
+    color: white;
+    font-size: 19px;
+    margin-top: 9px;
+    margin-left: 19px;
+}
+.cer4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.cer4:hover{
+    background-color: #3b3b3b;
+}
+.fa-microphone{
+    color: white;
+    margin-top: 3px;
+    margin-left: 0.5px;
+    font-size: 18px;
+}
+.rect1{
+    background-color: #3b3b3b;
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    transition: transform 1s ease-in-out, box-shadow 4s ease-in-out;
+    transform-origin: center;
+}
+.rect1 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.rect1:hover {
+    transform: scale(1.04);
+}
+.rect2{
+    background-color: #3b3b3b;
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    transition: transform 1s ease-in-out, box-shadow 4s ease-in-out;
+    transform-origin: center;
+}
+.rect2 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.rect2:hover {
+    transform: scale(1.04);
+}
+.rect3{
+    background-color:#3b3b3b;
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    transition: transform 1s ease-in-out, box-shadow 4s ease-in-out;
+    transform-origin: center;
+}
+.rect3 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.rect3:hover {
+    transform: scale(1.04);
+}
+.cerc1{
+    background-color: #3b3b3b;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.cerc1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+.titre1{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 14px;
+}
+.nom1{
+    color: #aaa;
+    font-size: 13px;
+    margin-top: -5px;
+    margin-left: 15px;
+    margin-bottom: 19px;
+    
+}
+.titreMin1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+}
+.video-info {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    height: 0px;
+    line-height: 20px;
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.separator {
+    width: 4px;
+    height: 4px;
+    background-color: #aaa;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cerc2{
+    background-color: #3b3b3b;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.cerc2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block; /* Évite les marges indésirables */
+}
+.cerc3{
+    background-color: #3b3b3b;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.cerc3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block; /* Évite les marges indésirables */
+}
+.rect4{
+    background-color: #3b3b3b;
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    transition: transform 1s ease-in-out, box-shadow 4s ease-in-out;
+    transform-origin: center;
+}
+.rect4 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.rect4:hover {
+    transform: scale(1.04); /* Monte de 50px et grandit */
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+}
+.rect5{
+    background-color: #3b3b3b;
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    transition: transform 1s ease-in-out, box-shadow 4s ease-in-out;
+    transform-origin: center;
+}
+.rect5 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.rect5:hover {
+    transform: scale(1.04); /* Monte de 50px et grandit */
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+}
+.rect6{
+    background-color:#3b3b3b;
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    transition: transform 1s ease-in-out, box-shadow 4s ease-in-out;
+    transform-origin: center;
+}
+.rect6 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.rect6:hover {
+    transform: scale(1.04); /* Monte de 50px et grandit */
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+}
+.cerc4{
+    background-color: #3b3b3b;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.cerc4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block; /* Évite les marges indésirables */
+}
+.cerc5{
+    background-color: #3b3b3b;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.cerc5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block; /* Évite les marges indésirables */
+}
+.cerc6{
+    background-color: #3b3b3b;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.cerc6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block; /* Évite les marges indésirables */
+}
+.rect7{
+    background-color: #3b3b3b;
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    transition: transform 1s ease-in-out, box-shadow 4s ease-in-out;
+    transform-origin: center;
+}
+.rect7 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.rect7:hover {
+    transform: scale(1.04); /* Monte de 50px et grandit */
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+}
+.rect8{
+    background-color: #3b3b3b;
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    transition: transform 1s ease-in-out, box-shadow 4s ease-in-out;
+    transform-origin: center;
+}
+.rect8 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.rect8:hover {
+    transform: scale(1.04); /* Monte de 50px et grandit */
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+}
+.rect9{
+    background-color:#3b3b3b;
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    transition: transform 1s ease-in-out, box-shadow 4s ease-in-out;
+    transform-origin: center;
+}
+.rect9 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.rect9:hover {
+    transform: scale(1.04); /* Monte de 50px et grandit */
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+}
+.cerc7{
+    background-color: #3b3b3b;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.cerc7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block; /* Évite les marges indésirables */
+}
+.cerc8{
+    background-color: #3b3b3b;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.cerc8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block; /* Évite les marges indésirables */
+}
+.cerc9{
+    background-color: #3b3b3b;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.cerc9 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block; /* Évite les marges indésirables */
+}
+.icones {
+    position: fixed; /* Fixe la barre sur le côté gauche */
+    top: 70px;
+    left: -5px; /* Assure qu'elle soit bien collée à gauche */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80px; /* Largeur fixe comme sur YouTube */
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    padding: 20px 0; /* Ajustement du padding */
+    gap: 40px;
+    color: white;
+    font-size: 20px;
+    background-color: #0f0f0f;; /* Assure la continuité du fond */
+}
+.divMaman1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0f0f0f;
+    color: white;
+    cursor: pointer;
+    margin-top: -39px;
+}
+.divMaman1:hover{
+    cursor: pointer;  
+}
+.divMamanCer{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.youtube-logo{
+    display: flex;
+    align-items: center;
+}
+.divmamanmere{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (min-width: 1200px) {
+    .divmamanmere {
+        justify-content:first baseline; /* Réduire l'espace entre les enfants */
+    }
+    .youtube-logo {
+        margin-left: 0%; /* Réduire encore plus les marges */
+    }
+}
+.miniGroup1{
+    display: flex;
+}
+.miniGroup2{
+    display: flex;
+}
+.miniGroup3{
+    display: flex;
+}
+.miniGroup4{
+    display: flex;
+}
+.miniGroup5{
+    display: flex;
+}
+.miniGroup6{
+    display: flex;
+}
+.miniGroup7{
+    display: flex;
+}
+.miniGroup8{
+    display: flex;
+}
+.miniGroup9{
+    display: flex;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    }
+}
+.bodyYou1, .bodyYou2, .bodyYou3 {
+    display: grid;
+    width: 72%; /* Réduit un peu la largeur pour mieux s'ajuster */
+    height: 180px; /* Légèrement réduit pour éviter l'encombrement */
+    background-color: #333;
+    border-radius: 10px;
+    gap: 40px;
+
+    /* Ajout d'un décalage vers la droite pour éviter les icônes */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0; 
+}
+.icones{
+    gap: 25px;
+}
+.fa-solid {
+    display: inline-block; /* Transforme en conteneur pour organiser */
+    text-align: center; /* Centre le contenu à l'intérieur */ 
+    line-height: 1; /* Ajuste l'espacement des lignes */
+}
+.fa-solid .text2 {
+    display: block; /* Le texte passe sur une nouvelle ligne */
+    font-size: 10px; /* Taille du texte */
+    margin-top: 10px; /* Espace entre l'icône et le texte */
+    margin-right: 7px;
+}
+.fa-regular{
+    display: inline-block; /* Transforme en conteneur pour organiser */
+    text-align: center; /* Centre le contenu à l'intérieur */ 
+    line-height: 1;
+}
+.fa-regular .text3{
+    display: block; /* Le texte passe sur une nouvelle ligne */
+    font-size: 10px; /* Taille du texte */
+    margin-top: 10px; /* Espace entre l'icône et le texte */
+    margin-right: 8px;
+}
+.yt-icon-shape{
+    display: inline-block; /* Transforme en conteneur pour organiser */
+    text-align: center; /* Centre le contenu à l'intérieur */ 
+    line-height: 1;
+    margin-left: 5px;
+}
+.yt-icon-shape .text4{
+    display: block; /* Le texte passe sur une nouvelle ligne */
+    font-size: 10px; /* Taille du texte */
+    margin-top: 10px; /* Espace entre l'icône et le texte */
+    margin-right: 28px;
+}
+.style-scope{
+    display: inline-block; /* Transforme en conteneur pour organiser */
+    text-align: center; /* Centre le contenu à l'intérieur */ 
+    line-height: 1;
+    margin-left: 10px;
+}
+.style-scope .text5{
+    display: block; /* Le texte passe sur une nouvelle ligne */
+    font-size: 10px; /* Taille du texte */
+    margin-top: 10px; /* Espace entre l'icône et le texte */
+    margin-right: 25px;
+}
+.content{
+    width: 100%; /* Pour éviter les espaces vides */
+    max-width: 1400px; /* Ajuste selon tes besoins */
+    margin: 0 auto; /* Centre le contenu */
+}
+
+.chips-wraper{
+    margin: 12px 6px;
+    padding: 6px 50px;
+    background-color: #0f0f0f;
+    border-radius: 8px;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 12px;
+    margin-left: 80px;
+    margin-top: -30px;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Permet aux éléments de passer à la ligne */
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Aligner les éléments à gauche pour occuper toute la largeur */
+    width: 100%;
+    padding: 10px; /* S'assurer que le wrapper prend toute la largeur */
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.chip{
+    padding: 6px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #fff;
+    transition: .5s;
+    height: 20px; /* Augmenté pour un meilleur centrage */
+    display: flex; /* Permet d'aligner le texte */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.chip:hover{
+    background-color: #3b3b3b;
+}
+.chip .txt1{
+    align-items: center;
+    text-align: center;
+}
+@media (min-width: 1200px) {
+    .content {
+        font-size: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Écrans moyens */
+@media (max-width: 1200px) {
+    .content {
+        font-size: 40px;
+    }
+}
+
+/* Écrans petits */
+@media (max-width: 768px) {
+    .divmamanmere {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .chips-wraper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacement entre .rec et .cer4 */
+    padding: 10px;
+    margin-top: -30px;
+}
+.cer4, .rec {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Ajuste l'espace entre eux */
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacement entre le logo et divMaman1 */
+}
+.youtube-logo svg {
+    width: 100px; /* Taille adaptable */
+    height: auto;
+}
+
+.divMaman1 {
+    margin-left: 0;
+}
+.divMaman1 .icones{
+    display: grid;
+    grid-template-rows: auto auto;
+}
