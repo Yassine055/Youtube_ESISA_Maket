@@ -756,3 +756,61 @@ span{
     display: grid;
     grid-template-rows: auto auto;
 }
+
+@media screen and (max-width: 768px) {
+    .icones {
+        width: 60px; /* Réduire la largeur des icônes */
+        gap: 20px; /* Réduire l'espace entre elles */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rec {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .rect1, .rect2, .rect3,
+    .rect4, .rect5, .rect6,
+    .rect7, .rect8, .rect9 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .titre1 {
+        font-size: 14px;
+    }
+
+    .nom1 {
+        font-size: 12px;
+    }
+
+    .icones {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+        background-color: #0f0f0f;
+    }
+
+    .all {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divmamanmere {
+        justify-content: center;
+    }
+
+    .bodyYou1, .bodyYou2, .bodyYou3 {
+        width: 100%;
+        height: auto;
+    }
+}
